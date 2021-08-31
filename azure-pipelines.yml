@@ -7,8 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-Stupid_Fellow
-
+  vmImage: ubuntu-latest
+- task: DotNetCoreCLI@2
+  inputs: Hello
+    command: 'build'
 steps:
 - script: echo Hello, Mental Fellow
   displayName: 'Run a one-line script'
