@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ubuntu-Stupid_Fellow
 
 steps:
 - script: echo Hello, Mental Fellow
